@@ -1,0 +1,35 @@
+.main{padding: 0px; margin: 0px}
+.navbar{background-color:rgba(0, 0, 0, 0.4);;; justify-content: space-around; height: 80px;}
+.navbar a  { color:white; margin-left: 50px; margin-bottom: 10px ;text-align: center; text-justify: auto; font-family: monospace;font-size: 24px;}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 10; }
+}
+@keyframes a2 {
+    from { color: orange;}
+    to { color:white; }
+}
+@keyframes a3 {
+    from { margin-left: 5px; }
+    to {margin-left: 300px }
+}
+
+
+.input{}
+.main{background-image: url(pexels-pixabay-268533.jpg); height: 200%;width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center}
+.navbar img{margin-left: 90px; }
+table{ padding: 100px; justify-content: space-between; align-items: center; margin: auto; }
+.template{background-color: rgba(2000,2000,2000,0.8); border-radius: 10px;width: 230px;height: 230; animation-name: fadeIn; animation-duration: 7s; margin-left: 10px;margin-right: 10px; margin-bottom: 10px; font-size: 20px; }
+.template h3{margin: 35px;}
+.template img{margin-left: 45px; width: 40%}
+
+.logo{animation-name: a2; animation-duration: 3s}
+	.trend{animation-name:a3; animation-duration: 3s;margin-left: 300px;margin-bottom: 0px  }
+input{animation-name:fadeIn; animation-duration: 1s }
+.template button{border-radius: 8px; background-color: deepskyblue; margin-left: 50px;padding: 12px; color: white; font-size: 12px; width: 50%;}
+.t1 img{width: 80px ; }
+
+.d{background-color:  rgba(2000,2000,2000,0.8); margin-left: 59px; height: 250px; width: 150px; margin-top: 0px; border-radius: 6px;padding: 10px}
+.d hr{width: 150px;height: 2px ; background-color: gold}
+.d h1{margin-left: 50px; color: goldenrod;}
+.d button{padding: 10px;border-radius: 6px; background-color: transparent; margin-left: 40px}
